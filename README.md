@@ -23,7 +23,7 @@ Create a new one:
 $ docker run --name='mybuildbox' -it rsippl/centos-dev
 ```
 
-Then on host system form another terminal, copy the build script to the container:
+Then on host system from another terminal, copy the build script to the container:
 
 ```
 $ docker cp build.sh mybuildbox:/root
