@@ -22,7 +22,7 @@ cd ImageMagick*
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export LDFLAGS=-L/usr/local/lib
 export CPPFLAGS=-I/usr/local/include/libheif
-./configure --prefix=/root/imagemagick-heic-static-centos7 --enable-shared=no --enable-static=yes --with-heic
+./configure --prefix=/root/imagemagick-workspace/imagemagick-heic-static-centos7 --enable-shared=no --enable-static=yes --with-heic
 make && make install
 
 cd ..
