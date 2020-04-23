@@ -6,7 +6,13 @@ To build a new release using docker:
 - First update the build.sh script for new versions.
 - Download the build.sh script to your system.
 
-Then, on host system:
+Then, on host system, delete your previous buildbox when you have one:
+
+```
+$ docker rm mybuildbox
+```
+
+Create a new one:
 
 ```
 $ docker run --name='mybuildbox' -it rsippl/centos-dev
