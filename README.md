@@ -1,5 +1,5 @@
 # imagemagick-heic-static
-Static ImageMagick binaries with HEIC support. Only support for HEIC and PNG is included for converting HEIC images to PNG.
+Static ImageMagick binaries with HEIC support. Only supports for HEIC and PNG is included for converting HEIC images to PNG.
 
 To build a new release using docker:
 
