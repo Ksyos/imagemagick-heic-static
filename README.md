@@ -1,7 +1,7 @@
 # imagemagick-heic-static
 Static ImageMagick binaries with HEIC support. Only supports for HEIC and PNG is included for converting HEIC images to PNG.
 
-To build a new release using docker:
+## To build a new release using docker for CentOS 7
 
 First update the build.sh script for new versions.
 
