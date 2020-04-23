@@ -2,7 +2,8 @@
 cd ~ && mkdir -p imagemagick-workspace && cd imagemagick-workspace && rm -rf ~/imagemagick-workspace/*
 mkdir -p imagemagick-heic-static-centos7/lib && mkdir -p imagemagick-heic-static-centos7/bin
 
-yum -y install libpng-devel
+yum update -y
+yum -y install libpng-devel-1.5.13
 
 curl -L https://github.com/strukturag/libde265/releases/download/v1.0.5/libde265-1.0.5.tar.gz | tar zx
 cd libde265-1.0.5
@@ -17,7 +18,7 @@ export CPPFLAGS=-I/usr/local/include/libde265
 ./autogen.sh && ./configure && make && make install
 cd ../
 
-curl -L https://imagemagick.org/download/ImageMagick.tar.gz | tar zx
+curl -L https://imagemagick.org/download/ImageMagick-7.0.10-7.tar.gz | tar zx
 cd ImageMagick*
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export LDFLAGS=-L/usr/local/lib
