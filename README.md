@@ -3,8 +3,13 @@ Static ImageMagick binaries with HEIC support. Only supports for HEIC and PNG is
 
 To build a new release using docker:
 
-- First update the build.sh script for new versions.
-- Download the build.sh script to your system.
+First update the build.sh script for new versions.
+
+Download the build.sh script to your system:
+
+```
+curl -L https://raw.githubusercontent.com/Ksyos/imagemagick-heic-static/master/build.sh > build.sh
+```
 
 Then, on host system, delete your previous buildbox when you have one:
 
