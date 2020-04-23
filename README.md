@@ -41,4 +41,4 @@ Wait for the compilation to finish. Then, from host, copy the resulting release 
 $ docker cp mybuildbox:/root/imagemagick-workspace/imagemagick-heic-static-centos7.tgz .
 ```
 
-Now go on and create new release in GitHub!
+Now go on and create new release in GitHub! Don't forget to update the image with packer..
