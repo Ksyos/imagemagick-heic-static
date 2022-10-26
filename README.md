@@ -1,3 +1,6 @@
+# RETIRED
+This repo has been retired, since Ubuntu 22.04 GraphicsMagick now supports HEIC out of the box.
+
 # imagemagick-heic-static
 Static ImageMagick binaries with HEIC support. Only supports for HEIC and PNG is included for converting HEIC images to PNG.
 
